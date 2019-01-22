@@ -1,0 +1,36 @@
+/* base style */
+
+.container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+    /* background-color: rgb(192, 237, 255); */
+}
+
+.item {
+    background-color: rgb(138, 255, 127);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 20px;
+
+}
+
+.item-3 {
+    background-color: rgba(245, 187, 41, 0.733);
+    border-radius: 10px;
+    grid-column: 2 / 5;
+}
+.container:hover{
+    /* background-color: rgba(255, 0, 0, 0.521); */
+    
+}
+
+.poop {
+    background-color: aliceblue;
+    text-align: center;
+    align-self: center; 
+    grid-row: span 3;
+    grid-column: span 3;
+}
